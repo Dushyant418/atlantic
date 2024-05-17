@@ -3,7 +3,7 @@ import Logo from '../assets/images/logo.svg'
 
 const HeroSection = () => {
   return (
-    <section className='hero_baground min-vh-100 position-relative d-flex flex-column'>
+    <section className='hero_baground min-vh-777 position-relative d-flex flex-column'>
       <div className='nav_baground'>
         <div className='container max_width_1360'>
           <nav className='nav_padding d-flex align-items-center flex-wrap justify-content-between'>

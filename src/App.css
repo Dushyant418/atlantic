@@ -108,7 +108,9 @@
   background-image: url(./assets/images/herosection-bg.png);
   background-position: center;
   background-size: cover;
-
+}
+.min-vh-777{
+  min-height: 777px;
 }
 
 .nav_baground {
@@ -153,7 +155,7 @@
   margin-top: -1px;
 }
 
-.margin_top_160{
+.margin_top_160 {
   margin-top: -160px;
 }
 
@@ -257,6 +259,7 @@
   right: -20px;
   z-index: -1;
 }
+
 .baground_blue::after {
   background-image: url(./assets/images/blue-bg.png);
   content: '';
@@ -268,6 +271,7 @@
   right: -25px;
   z-index: -1;
 }
+
 .padding_bottom_288 {
   padding-bottom: 288px;
 }
@@ -331,6 +335,7 @@
   width: 100%;
   right: 0;
 }
+
 .box_white2 {
   background-image: url(./assets/images/section3-bg.png);
   background-position: center;
@@ -342,6 +347,7 @@
   width: 100%;
   left: 0;
 }
+
 .footer_card {
   max-width: 364px;
 }
@@ -363,29 +369,29 @@
   pointer-events: none;
 }
 
-.red_ellipse{
+.red_ellipse {
   right: 0;
   bottom: -20%;
   z-index: 2;
   pointer-events: none;
 }
 
-.blue_liquid_position{
+.blue_liquid_position {
   right: 8%;
   z-index: 1;
   pointer-events: none;
 
 }
 
-.padding_bottom_64{
+.padding_bottom_64 {
   padding-bottom: 78px;
 }
 
-.max_width_567{
+.max_width_567 {
   max-width: 567px;
 }
 
-.blue_ellip_position{
+.blue_ellip_position {
   right: 0;
   top: -55px;
   z-index: 0;
