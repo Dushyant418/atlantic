@@ -4,7 +4,7 @@ import blue_ellip from '../assets/images/ellipse-b.png'
 
 const Approvals = () => {
   return (
-      <section className=' bg-black -mt_1 position-relative'>
+      <section className=' bg-black -mt_1 position-relative padding_top_75'>
           <div className=' position-absolute box_white2'></div>
           <img className=' position-absolute blue_liquid_position' src={blue_liquid} alt="image-blue" />
           <img className=' position-absolute blue_ellip_position' src={blue_ellip} alt="blue_ellip" />
