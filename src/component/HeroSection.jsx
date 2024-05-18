@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className='nav_baground'>
         <div className='container max_width_1360'>
           <nav className='nav_padding d-flex align-items-center flex-wrap justify-content-between'>
-            <div className=' d-flex align-items-center gap_55'>
+            <div className=' d-flex flex-wrap align-items-center gap_55'>
               <img src={Logo} alt="logo" />
               <ul className=' d-flex flex-wrap gap_28 ps-0 mb-0'>
                 <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>About Us</a></li>
@@ -41,10 +41,12 @@ const HeroSection = () => {
         </div>
       </div>
       <div className='container max_width_1140 d-flex flex-grow-1'>
-        <div className=' d-flex align-items-end  justify-content-between padding_bottom_45  w-100'>
-          <h2 className='mb-0 font_Poppins font_weight_800 text-white text-uppercase font_size_3xl line_height_72 max_width_800'>Optimising your
-            Vehicle <em className=' fw-normal'>Performance</em></h2>
-          <button className=' text-uppercase nav_btn font_Chivo font_weight_900 font_size_sm line_height_24'>explore</button>
+        <div className=' d-flex align-items-end flex-wrap  justify-content-between   w-100'>
+          <div className="d-flex  justify-content-between align-items-end w-100  flex-lg-nowrap flex-wrap padding_bottom_45">
+            <h2 className='mb-0 font_Poppins font_weight_800 text-white text-uppercase font_size_3xl line_height_72 max_width_800 pb-3'>Optimising your
+              Vehicle <em className=' fw-normal'>Performance</em></h2>
+            <button className=' text-uppercase nav_btn font_Chivo font_weight_900 font_size_sm line_height_24'>explore</button>
+          </div>
         </div>
       </div>
     </section>
