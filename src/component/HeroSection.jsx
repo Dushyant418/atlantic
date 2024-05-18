@@ -1,15 +1,27 @@
-import React from 'react'
+import React , {useState} from 'react'
 import Logo from '../assets/images/logo.svg'
+import oem_approved from '../assets/images/oem-approved.png'
 
 const HeroSection = () => {
+  const [data, setdata] = useState(false);
+  function view() {
+    setdata(!data)
+    if (data === false) {
+      document.body.classList.add("overflow_hidden");
+    }
+    else {
+      document.body.classList.remove("overflow_hidden");
+    }
+  }
   return (
-    <section className='hero_baground min-vh-777 position-relative d-flex flex-column'>
+    <section className='hero_baground min-vh-777 position-relative d-flex flex-column overflow-hidden'>
+      <img className='oem_position position-absolute d-none d-lg-block' src={oem_approved} alt="oem-approved" />
       <div className='nav_baground'>
         <div className='container max_width_1360'>
           <nav className='nav_padding d-flex align-items-center flex-wrap justify-content-between'>
             <div className=' d-flex flex-wrap align-items-center gap_55'>
               <img src={Logo} alt="logo" />
-              <ul className=' d-flex flex-wrap gap_28 ps-0 mb-0'>
+              <ul className={`${data ? "navShow" : "navhide"} gap-4 gap_28 d-flex align-items-center mobile_view ps-0 mb-0`}>
                 <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>About Us</a></li>
                 <div class="dropdown">
                   <button class="dropbtn off_white font_DMsans fw-normal font_size_sm line_height_24">Categories <span><svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,6 +48,11 @@ const HeroSection = () => {
                 <input className='nav_input font_DMsans fw-normal font_size_md line_height_22 text_gray' type="search" placeholder='Search' />
               </div>
               <button className=' text-uppercase nav_btn font_Chivo font_weight_900 font_size_sm line_height_24'>Get in touch</button>
+              <div onClick={view} className="menuicon d-flex flex-column gap-2 d-lg-none">
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+              </div>
             </div>
           </nav>
         </div>

@@ -11,8 +11,8 @@ const Lubricant = () => {
 
             <div className=' container max_width_1140'>
                 <div className=' d-flex align-items-center justify-content-end padding_top_heading'>
-                    <h3 className='text-uppercase text-white font_Poppins text-center font_weight_800 mb-0 font_size_2xl line_height_62 max_width_745'> Pioneers of
-                        <em className=' fw-normal position-relative baground_red3 z-1'> Lubricants</em> & Grease Manufacturing </h3>
+                    <h3 className='text-uppercase text-white font_Poppins text-center font_weight_800 pb-4 pb-md-0 mb-0 font_size_2xl line_height_62 max_width_745'>Pioneers of
+                        <em className=' fw-normal position-relative baground_red3 z-1'> Lubricants</em> <span className=' d-inline-block'>& Grease Manufacturing</span> </h3>
                 </div>
                 <div className='row justify-content-center justify-content-lg-end padding_bottom_210'>
                     <div className='col-12 col-lg-6 z-2 d-flex flex-column justify-content-end align-items-end'>

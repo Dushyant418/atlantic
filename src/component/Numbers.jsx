@@ -25,7 +25,7 @@ const Numbers = () => {
                     <img className=' position-absolute mini_position2 scroll_image' src={Mini2} alt="mini2" />
                     <img className=' position-absolute volkswagen2_position scroll_image' src={Volkswagen} alt="volkswagen" />
                 </div>
-                <div className='circle_baground w-100 over_scroll gap-4 d-flex  z-1 position-relative d-lg-none d-block'>
+                <div className=' over_sc roll gap-4 d-flex flex-wrap  z-1  d-lg-none d-block pt-5 padding_bottom_260'>
                     <img className='  volkswagen_position scroll_image' src={Volkswagen} alt="volkswagen" />
                     <img className='  volkswagen_position2 scroll_image' src={Volkswagen2} alt="volkswagen2" />
                     <img className='  mini_position1 scroll_image' src={Mini} alt="mini" />
