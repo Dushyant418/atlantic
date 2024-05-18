@@ -9,7 +9,7 @@ const Approvals = () => {
           <img className=' position-absolute blue_liquid_position d-none d-lg-block' src={blue_liquid} alt="image-blue" />
           <img className=' position-absolute blue_ellip_position d-none d-lg-block' src={blue_ellip} alt="blue_ellip" />
 
-          <div className=' container max_width_1140 padding_bottom_64'>
+          <div className=' container max_width_1140 padding_bottom_64 padding_top_75'>
               <div className=' d-flex align-items-center justify-content-start'>
                   <h3 className='text-uppercase text-white font_Poppins text-center font_weight_800 mb-0 font_size_2xl line_height_62 max_width_745'>OEM<em className=' fw-normal position-relative baground_blue z-1'> Approvals</em></h3>
               </div>

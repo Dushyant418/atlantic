@@ -152,6 +152,10 @@
   max-width: 101px;
 }
 
+::placeholder {
+  color: var(--gray);
+}
+
 .-mt_1 {
   margin-top: -1px;
 }
@@ -226,8 +230,8 @@
   padding-bottom: 288px;
 }
 
-.padding_bottom_75 {
-  padding-bottom: 75px;
+.padding_bottom_68 {
+  padding-bottom: 68px;
 }
 
 .red_hover {
@@ -291,7 +295,7 @@
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: 20%;
+  top: 29%;
   height: 417px;
   max-width: 956px;
   width: 100%;
@@ -300,6 +304,10 @@
 
 .footer_card {
   max-width: 364px;
+}
+
+.padding_top_75 {
+  padding-top: 75px;
 }
 
 .padding_top_white_box {
@@ -333,6 +341,7 @@
 .blue_liquid_position {
   right: 8%;
   z-index: 1;
+  bottom: 0;
   pointer-events: none;
 
 }
@@ -347,7 +356,7 @@
 
 .blue_ellip_position {
   right: 0;
-  top: -55px;
+  bottom: -40px;
   z-index: 0;
   pointer-events: none;
 
@@ -363,10 +372,6 @@
 }
 
 @media (min-width:992px) {
-  .padding_bottom_45 {
-    padding-bottom: 45px;
-  }
-
   .baground_red::after {
     background-image: url(./assets/images/bg-red.png);
     content: '';

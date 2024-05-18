@@ -20,12 +20,15 @@
     --fw-800: 800;
     --fw-900: 900;
 
-    --gray-100: #11100B1A;
+    --gray: #A7A7A9;
     --black: #080705;
     --black2: #383838;
     --off-white: #D8D8D9;
 }
 
+.text_gray{
+    color: var(--gray);
+}
 
 .black2{
     color: var(--black2);

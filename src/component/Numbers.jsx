@@ -36,7 +36,7 @@ const Numbers = () => {
                 </div>
                 <div className='box_baground margin_top_160'>
                     <div className=' container max_width_1140'>
-                        <div className=' d-flex align-items-center justify-content-center padding_bottom_75'>
+                        <div className=' d-flex align-items-center justify-content-center padding_bottom_68'>
                             <h3 className=' z-3 text-uppercase text-white font_Poppins text-center font_weight_800 font_size_2xl line_height_62 max_width_578'>our <em className=' fw-normal position-relative baground_red z-1'>numbers</em> say about us</h3>
                         </div>
                         <div className='row padding_bottom_288'>
