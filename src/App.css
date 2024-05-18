@@ -267,7 +267,11 @@
 
 .blue_ellipse {
   top: 5%;
-  right: 1px;
+  right: 200px;
+}
+
+.padding_bottom_70 {
+  padding-bottom: 70px;
 }
 
 .max_width_745 {
