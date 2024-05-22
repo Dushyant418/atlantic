@@ -4,7 +4,7 @@ import gold_ellipse from '../assets/images/gold-ellipse.png'
 
 const Lubricant = () => {
     return (
-        <section className=' bg-black -mt_1 position-relative'>
+        <section id='about' className=' bg-black -mt_1 position-relative'>
             <div className=' position-absolute box_white'></div>
             <img className=' gold_position position-absolute d-none d-lg-block' src={gold_liquid} alt="golde-liquid" />
             <img className=' position-absolute ellipse_gold d-none d-lg-block' src={gold_ellipse} alt="ellipse" />

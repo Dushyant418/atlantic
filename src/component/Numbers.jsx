@@ -12,7 +12,7 @@ import red_ellipse from '../assets/images/Ellipse-red.png'
 
 const Numbers = () => {
     return (
-        <section className=' position-relative bg-black -mt_1'>
+        <section id='testimonials' className=' position-relative bg-black -mt_1'>
             <img className='position-absolute red_ellipse' src={red_ellipse} alt="ellpipse" />
             <div className="padding_top_200">
                 <img className='position-absolute blue_ellipse d-none d-lg-block' src={blue_ellipse} alt="blue-ellipse" />
@@ -40,19 +40,19 @@ const Numbers = () => {
                             <h3 className=' z-3 text-uppercase text-white font_Poppins text-center font_weight_800 font_size_2xl line_height_62 max_width_578'>our <em className=' fw-normal position-relative baground_red z-1'>numbers</em> say about us</h3>
                         </div>
                         <div className='row padding_bottom_288'>
-                            <div className='col-12 col-md-6 col-lg-3 z-3'>
+                            <div className='col-12 col-sm-6 col-lg-3 z-3'>
                                 <h3 className='font_Poppins font_weight_800 font_size_4xl line_height_96 mb-0 text-center red_hover'>20k+</h3>
                                 <p className='mb-0 text-white font_DMsans fw-medium font_size_sm line_height_24 text-center'>Happy customers</p>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-3 z-3 pt-4 pt-md-0'>
+                            <div className='col-12 col-sm-6 col-lg-3 z-3 pt-4 pt-sm-0'>
                                 <h3 className='font_Poppins font_weight_800 font_size_4xl line_height_96 mb-0 text-center red_hover'>35%</h3>
                                 <p className='mb-0 text-white font_DMsans fw-medium font_size_sm line_height_24 text-center'>Export Volume</p>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-3 z-3 pt-4 pt-lg-0'>
+                            <div className='col-12 col-sm-6 col-lg-3 z-3 pt-4 pt-lg-0'>
                                 <h3 className='font_Poppins font_weight_800 font_size_4xl line_height_96 mb-0 text-center red_hover'>20%</h3>
                                 <p className='mb-0 text-white font_DMsans fw-medium font_size_sm line_height_24 text-center'>Market Share</p>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-3 z-3 pt-4 pt-lg-0'>
+                            <div className='col-12 col-sm-6 col-lg-3 z-3 pt-4 pt-lg-0'>
                                 <h3 className='font_Poppins font_weight_800 font_size_4xl line_height_96 mb-0 text-center red_hover'>65+</h3>
                                 <p className='mb-0 text-white font_DMsans fw-medium font_size_sm line_height_24 text-center'>Country</p>
                             </div>

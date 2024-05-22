@@ -3,7 +3,7 @@ import Car from '../assets/images/car-image.png'
 
 const Footer = () => {
     return (
-        <section className=' bg-black -mt_1'>
+        <section id='Blogs' className=' bg-black -mt_1'>
             <div className=' container max_width_1140'>
                 <div className=' d-flex align-items-center justify-content-center padding_bottom_70'>
                     <h3 className='text-uppercase text-white font_Poppins text-center font_weight_800 font_size_2xl line_height_62'>explore our<em className=' fw-normal position-relative baground_red2 z-1'> blogs</em></h3>

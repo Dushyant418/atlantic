@@ -14,7 +14,7 @@ const HeroSection = () => {
     }
   }
   return (
-    <section className='hero_baground min-vh-777 position-relative d-flex flex-column overflow-hidden'>
+    <section className='hero_baground min-vh-100 position-relative d-flex flex-column overflow-hidden'>
       <img className='oem_position position-absolute d-none d-lg-block' src={oem_approved} alt="oem-approved" />
       <div className='nav_baground'>
         <div className='container max_width_1360'>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className=' d-flex flex-wrap align-items-center gap_55'>
               <img src={Logo} alt="logo" />
               <ul className={`${data ? "navShow" : "navhide"} gap-4 gap_28 d-flex align-items-center mobile_view ps-0 mb-0`}>
-                <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>About Us</a></li>
+                <li><a href="#about" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>About Us</a></li>
                 <div class="dropdown">
                   <button class="dropbtn off_white font_DMsans fw-normal font_size_sm line_height_24">Categories <span><svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.8" d="M1 1L5.5 6L10 1" stroke="white" stroke-width="1.5" stroke-linecap="round" />
@@ -34,9 +34,9 @@ const HeroSection = () => {
                     <a href="#">Lubricants</a>
                   </div>
                 </div>
-                <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Services</a></li>
-                <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Testimonials</a></li>
-                <li><a href="#" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Blogs</a></li>
+                <li><a href="#services" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Services</a></li>
+                <li><a href="#testimonials" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Testimonials</a></li>
+                <li><a href="#Blogs" className='off_white font_DMsans fw-normal font_size_sm line_height_24 link_hover'>Blogs</a></li>
               </ul>
             </div>
             <div className=' d-flex align-items-center gap_16'>
@@ -60,7 +60,7 @@ const HeroSection = () => {
       <div className='container max_width_1140 d-flex flex-grow-1'>
         <div className=' d-flex align-items-end flex-wrap  justify-content-between   w-100'>
           <div className="d-flex  justify-content-between align-items-end w-100  flex-lg-nowrap flex-wrap">
-            <h2 className='mb-0 font_Poppins font_weight_800 text-white text-uppercase font_size_3xl line_height_72 max_width_800 pb-3'>Optimising your
+            <h2 className='mb-0 font_Poppins font_weight_800 text-white text-uppercase font_size_3xl line_height_72 max_width_800 pb-3 pb-lg-0'>Optimising your
               Vehicle <em className=' fw-normal'>Performance</em></h2>
             <button className=' text-uppercase nav_btn font_Chivo font_weight_900 font_size_sm line_height_24'>explore</button>
           </div>
