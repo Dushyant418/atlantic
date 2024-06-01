@@ -6,7 +6,7 @@ const Approvals = () => {
   return (
       <section id='services' className=' bg-black -mt_1 position-relative'>
           <div className=' position-absolute box_white2'></div>
-          <img className=' position-absolute blue_liquid_position d-none d-lg-block' src={blue_liquid} alt="image-blue" />
+          <img className=' blue_liquid_position w- 100' src={blue_liquid} alt="image-blue" />
           <img className=' position-absolute blue_ellip_position d-none d-lg-block' src={blue_ellip} alt="blue_ellip" />
 
           <div className=' container max_width_1140 padding_bottom_78 padding_top_75'>
